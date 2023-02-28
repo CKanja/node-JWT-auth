@@ -1,0 +1,17 @@
+GET http://localhost:3000
+
+###
+// register route
+POST http://localhost:3000/auth/register
+
+###
+// login route
+POST http://localhost:3000/auth/login
+
+###
+// refresh token route
+POST http://localhost:3000/auth/refresh-token
+
+###
+// refresh token route
+DELETE http://localhost:3000/auth/logout
